@@ -2,24 +2,24 @@
 
 <!--<img src="scoop.png" alt="Long live Scoop!"/>-->
 <p align="center">
-        <a href="https://github.com/ScoopInstaller/Scoop#what-does-scoop-do">Features</a>
+        <a href="https://github.com/Unity-Billal-mesloub/Scoop#what-does-scoop-do">Features</a>
         |
-        <a href="https://github.com/ScoopInstaller/Scoop#installation">Installation</a>
+        <a href="https://github.com/Unity-Billal-mesloub/Scoop#installation">Installation</a>
         |
-        <a href="https://github.com/ScoopInstaller/Scoop/wiki">Documentation</a>
+        <a href="https://github.com/Unity-Billal-mesloub/Scoop/wiki">Documentation</a>
 </p>
 
 ---
 
 <p align="center">
-    <a href="https://github.com/ScoopInstaller/Scoop">
+    <a href="https://github.com/Unity-Billal-mesloub/Scoop">
         <img src="https://img.shields.io/github/languages/code-size/ScoopInstaller/Scoop.svg" alt="Code Size" />
     </a>
-    <a href="https://github.com/ScoopInstaller/Scoop">
+    <a href="https://github.com/Unity-Billal-mesloub/Scoop">
         <img src="https://img.shields.io/github/repo-size/ScoopInstaller/Scoop.svg" alt="Repository size" />
     </a>
-    <a href="https://github.com/ScoopInstaller/Scoop/actions/workflows/ci.yml">
-        <img src="https://github.com/ScoopInstaller/Scoop/actions/workflows/ci.yml/badge.svg" alt="Scoop Core CI Tests" />
+    <a href="https://github.com/Unity-Billal-mesloub/Scoop/actions/workflows/ci.yml">
+        <img src="https://github.com/Unity-Billal-mesloub/Scoop/actions/workflows/ci.yml/badge.svg" alt="Scoop Core CI Tests" />
     </a>
     <a href="https://discord.gg/s9yRQHt">
         <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
@@ -71,11 +71,11 @@ It will install Scoop to its default location:
 
 `C:\Users\<YOUR USERNAME>\scoop`
 
-You can find the complete documentation about the installer, including advanced installation configurations, in [ScoopInstaller/Install](https://github.com/ScoopInstaller/Install). Please create new issues there if you have questions about the installation.
+You can find the complete documentation about the installer, including advanced installation configurations, in [ScoopInstaller/Install](https://github.com/Unity-Billal-mesloub/Install). Please create new issues there if you have questions about the installation.
 
 ## Multi-connection downloads with `aria2`
 
-Scoop can utilize [`aria2`](https://github.com/aria2/aria2) to use multi-connection downloads. Simply install `aria2` through Scoop and it will be used for all downloads afterward.
+Scoop can utilize [`aria2`](https://github.com/Unity-Billal-mesloub/aria2) to use multi-connection downloads. Simply install `aria2` through Scoop and it will be used for all downloads afterward.
 
 ```console
 scoop install aria2
@@ -102,11 +102,11 @@ You can tweak the following `aria2` settings with the `scoop config` command:
 
 The apps that are most likely to get installed fine with Scoop are those referred to as "portable" apps. These apps are compressed files which can run standalone after being extracted. This type of apps does not produce side effects like changing the Windows Registry or placing files outside the app directory.
 
-Scoop also supports installer files and their uninstallation methods. Likewise, it can handle single-file apps and PowerShell scripts. These do not even need to be compressed. See the [runat](https://github.com/ScoopInstaller/Main/blob/master/bucket/runat.json) package for an example: it is simply a GitHub gist.
+Scoop also supports installer files and their uninstallation methods. Likewise, it can handle single-file apps and PowerShell scripts. These do not even need to be compressed. See the [runat](https://github.com/Unity-Billal-mesloub/Main/blob/main/bucket/runat.json) package for an example: it is simply a GitHub gist.
 
 ### Contribute to this project
 
-If you would like to improve Scoop by adding features or fixing bugs, please read our [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
+If you would like to improve Scoop by adding features or fixing bugs, please read our [Contributing Guide](https://github.com/Unity-Billal-mesloub/.github/blob/main/.github/CONTRIBUTING.md).
 
 ### Support this project
 
@@ -118,16 +118,11 @@ If you find Scoop useful and would like to support the ongoing development and m
 
 The following buckets are known to Scoop:
 
-- [main](https://github.com/ScoopInstaller/Main) - Default bucket which contains popular non-GUI apps.
-- [extras](https://github.com/ScoopInstaller/Extras) - Apps that do not fit the main bucket's [criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket).
-- [games](https://github.com/Calinou/scoop-games) - Open-source and freeware video games and game-related tools.
-- [nerd-fonts](https://github.com/matthewjberger/scoop-nerd-fonts) -  Nerd Fonts.
-- [nirsoft](https://github.com/ScoopInstaller/Nirsoft) - A collection of over 250+ apps from [Nirsoft](https://nirsoft.net).
-- [sysinternals](https://github.com/niheaven/scoop-sysinternals) - The Sysinternals suite from [Microsoft](https://learn.microsoft.com/sysinternals/).
-- [java](https://github.com/ScoopInstaller/Java) - A collection of Java development kits (JDKs) and Java runtime engines (JREs), Java's virtual machine debugging tools and Java based runtime engines.
-- [nonportable](https://github.com/ScoopInstaller/Nonportable) - Non-portable apps (may trigger UAC prompts).
-- [php](https://github.com/ScoopInstaller/PHP) - Installers for most versions of PHP.
-- [versions](https://github.com/ScoopInstaller/Versions) - Alternative versions of apps found in other buckets.
+- [main](https://github.com/Unity-Billal-mesloub/Main) - Default bucket which contains popular non-GUI apps.
+- [extras](https://github.com/Unity-Billal-mesloub/Extras) - Apps that do not fit the main bucket's [criteria](https://github.com/Unity-Billal-mesloub/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket).
+- [games](https://github.com/Unity-Billal-mesloub/scoop-games) - Open-source and freeware video games and game-related tools.
+- [nirsoft](https://github.com/Unity-Billal-mesloub/Nirsoft) - A collection of over 250+ apps from [Nirsoft](https://nirsoft.net). 
+
 
 The `main` bucket is installed by default. You can make use of more buckets by typing:
 
